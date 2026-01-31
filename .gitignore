@@ -36,6 +36,24 @@
 *.x86_64
 *.hex
 
+# Executables without extension (built from examples)
+examples/*/hello_world
+examples/*/data_types
+examples/*/arithmetic
+examples/*/input_output
+examples/*/conditionals
+examples/*/loops
+examples/*/switch_case
+examples/*/basic_functions
+examples/*/recursive_functions
+examples/*/arrays_basics
+examples/*/multi_dimensional
+examples/*/pointers_basics
+examples/*/dynamic_memory
+examples/*/structures
+examples/*/file_io
+examples/*/numerical_methods
+
 # Debug files
 *.dSYM/
 *.su
@@ -53,3 +71,6 @@ dkms.conf
 
 # debug information files
 *.dwo
+
+# File I/O example output
+flight_log.txt
