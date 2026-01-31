@@ -1,0 +1,1 @@
+//// Created by Ari arangajanan on 2026-01-31.//#include <stdio.h>int main () {    int myArray[] = {1, 2, 3, 4, 5, 6, 7, 8, 9} ;    // printf ("myArray[0]=%d\n", myArray[10]);    size_t size = sizeof(myArray)/sizeof(myArray[0]);    for (int i=0; i < size ; i++) {        printf ("myArray[%d]=%d\n", i, myArray[i]);    }    return 0 ;}

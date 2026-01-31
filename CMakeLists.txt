@@ -6,4 +6,5 @@ set(CMAKE_C_STANDARD 11)
 add_executable(c_lang
         c.c
         temp/Temprature.c
-        functions/Functions.c)
+        functions/Functions.c
+        array/Arrays.c)
