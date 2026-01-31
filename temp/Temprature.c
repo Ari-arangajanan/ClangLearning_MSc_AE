@@ -1,0 +1,1 @@
+#include  <stdio.h>int main() {    float tematureInC, tempInF;    puts("enter the temnprature : ");    scanf("%f", &tematureInC);    tempInF = tematureInC * 9/5 +32;    printf("%2.2f \u00B0 C = %2.2f \u00B0 F\n", tematureInC, tempInF);    return 0;}

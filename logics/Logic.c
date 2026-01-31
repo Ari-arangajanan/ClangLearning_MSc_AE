@@ -1,0 +1,1 @@
+#include <stdio.h>int main() {    int num1, num2, num3, larget = 0;    puts("Enter two integer numbers:");    scanf("%d %d %d" , &num1, &num2, &num3);    // compare and find the smallest    if (num1 < num2) {        larget= num2;    }    if (num3 > larget ) {        larget= num3;    }    printf("Largest number = %d \n" , larget);    return 0;}
